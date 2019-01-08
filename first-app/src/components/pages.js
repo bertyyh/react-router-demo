@@ -4,6 +4,8 @@ import { Link, Route } from "react-router-dom";
 import '../pages.css';
 import { Template } from "./template";
 import { AboutMenu } from "./menus";
+import Counter from './counter';
+
 // 首页内容
 export const Home = () => (
   <section className="home">
@@ -23,6 +25,7 @@ export const Events = () => (
   <Template>
     <section className="events">
       <h1>企业大事件</h1>
+      <Counter/>
     </section>
   </Template>
 
